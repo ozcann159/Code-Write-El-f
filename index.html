@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code write Elif</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body >
+    <header id="header">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="images/logo.svg" />
+            </a>
+
+            <div class="menu-container">
+                <div class="left">
+                    <div class="menus">
+                        <a href="#" class="menu-item" id="features">Features</a>
+                        <a href="#" class="menu-item" id="pricing">Pricing</a>
+                        <a href="#" class="menu-item" id="careers">Careers</a>
+                        <a href="#" class="menu-item" id="help">Help</a>
+
+                        </a>
+                    </div>
+                   
+                </div>
+
+                <div class="right">
+                    <a href="/">
+                        <img src="images/Google Play Badge.png" />
+                    </a>
+                    <a href="/">
+                        <img src="images/App Store Badge.png" />
+                    </a>
+                </div>
+            </div>
+
+            
+        </div>
+        <article id="icerik">
+            
+                <h1>The easiest way to<br> manage projects</h1>
+                <br>
+            
+        </article> 
+        <article id="icerik2"><h5>From the small stuff to the big picture, organizes the work so teams
+            know<br> what to do, why it matters, and how to get it done. </h5></article>
+            <aside id="yanmenu">
+                <img src="images/iPhone X.png">
+
+            </aside>
+    </header>
+    <nav id="altmenu">
+    <ul>
+        <li><img src="images/1.svg" alt=""></li>
+        <li><img src="images/2.svg" alt=""></li>
+        <li><img src="images/3.svg" alt=""></li>
+        <li><img src="images/4.svg" alt=""></li>
+        <li><img src="images/5.svg" alt=""></li>
+        <li><img src="images/6.svg" alt=""></li>
+    </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="content">
+                    
+                
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+        document.getElementById('toggle-menu').addEventListener('click', () => {
+            if (header.classList.toString().includes('open')) {
+                header.classList.remove('open')
+                return
+            }
+
+            header.classList.add('open')
+        })
+    </script>
+
+    <button class="getstared">Get Stared
+
+    </button>
+    
+</body>
+</html>
